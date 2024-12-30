@@ -29,7 +29,7 @@ This project's aim is to display my skills leveraging various Azure AI services 
 - **Key Metrics**: Latency, error rates, and throughput of feedback processing.
 
 ## Project Workflow
-1. Users submit feedback through a simple web interface [New Limit Website Repo](https://github.com/Xaidor/New-Limit-Website-).
+1. Users submit feedback through a simple web interface [New Limit Website Repo]([Website-](https://github.com/Xaidor/New-Limit-Azure-Project.git)).
 2. Feedback is sent to Azure Blob Storage via the API gateway.
 3. Azure Functions process new untranslated feedback and invoke the translation API from Azure Cognitive Services.
 4. Translated feedback is stored in a separate container in Blob Storage.
